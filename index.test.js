@@ -37,6 +37,7 @@ test('twoSum function should return true if there are two numbers that add up to
 // Test for factorate function
 test('factorate function should return an array of factors of a number', () => {
   expect(factorate(10)).toEqual([1, 2, 5, 10]);
+  expect(factorate(12)).toEqual([1, 2, 3, 4, 6, 12]);
 });
 
 // Test for isPrime function
